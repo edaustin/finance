@@ -1,0 +1,8 @@
+#!/bin/bash
+# basic lazy folks script
+# ea
+git diff --numstat
+/usr/bin/git add .
+#git commit -m "$*"
+git commit -m "updates"
+/usr/bin/git push
